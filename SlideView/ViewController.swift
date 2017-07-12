@@ -23,10 +23,10 @@ class ViewController: UIViewController
     @IBOutlet weak var RightConstraints: NSLayoutConstraint!
     
     
-    var Lmode = true
-    var Tmode = true
-    var Bmode = true
-    var Rmode = true
+    var Lmode = false
+    var Tmode = false
+    var Bmode = false
+    var Rmode = false
     
     
     
@@ -36,6 +36,7 @@ class ViewController: UIViewController
         
         LeftView.layer.shadowOpacity = 3
         LeftView.layer.shadowRadius = 8
+        LeftView.layer.shadowColor = UIColor.red.cgColor
         
         // Do any additional setup after loading the view, typically from a nib.
     }
