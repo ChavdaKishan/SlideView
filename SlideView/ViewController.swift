@@ -33,6 +33,10 @@ class ViewController: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        
+        LeftView.layer.shadowOpacity = 3
+        LeftView.layer.shadowRadius = 8
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -48,10 +52,12 @@ class ViewController: UIViewController
         if (Lmode)
         {
             LeadingConstraints.constant = -700
+            Animation()
         }
         else
         {
             LeadingConstraints.constant = 0
+            Animation()
         }
         Lmode = !Lmode
     }
@@ -60,10 +66,12 @@ class ViewController: UIViewController
         if (Tmode)
         {
             TopConstraints.constant = -1000
+            Animation()
         }
         else
         {
             TopConstraints.constant = 0
+            Animation()
         }
         Tmode = !Tmode
     }
@@ -73,10 +81,12 @@ class ViewController: UIViewController
         if (Bmode)
         {
             BottomConstraints.constant = 1000
+            Animation()
         }
         else
         {
             BottomConstraints.constant = 0
+            Animation()
         }
         Bmode = !Bmode
     }
@@ -85,14 +95,22 @@ class ViewController: UIViewController
         if (Rmode)
         {
             RightConstraints.constant = 700
+            Animation()
         }
         else
         {
             RightConstraints.constant = 0
+            Animation()
         }
         Rmode = !Rmode
     }
     
 
+    func Animation()
+    {
+        UIView.animate(withDuration: 0.3, animations: {
+            self.view.layoutIfNeeded()
+        })
+    }
 }
 
