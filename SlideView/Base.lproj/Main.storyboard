@@ -23,6 +23,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YTB-Ma-8Yp">
+                                <rect key="frame" x="-0.5" y="-0.5" width="375" height="667"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="60H-Ko-54o">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="lId-oJ-F4C">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K9Q-QR-yUg" userLabel="LView">
                                 <rect key="frame" x="0.0" y="64" width="319" height="603"/>
                                 <subviews>
@@ -90,20 +101,28 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="60H-Ko-54o" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1LP-PK-HaB"/>
                             <constraint firstItem="txO-Ip-BUy" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="21A-oG-hr3"/>
                             <constraint firstItem="FuX-Yd-jI5" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" constant="1000" id="AlC-03-brG"/>
                             <constraint firstItem="PH7-n4-xxc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-1000" id="Jwl-5w-sFx"/>
                             <constraint firstItem="FuX-Yd-jI5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="OiN-05-yxT"/>
                             <constraint firstItem="K9Q-QR-yUg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-700" id="P50-zK-DRn"/>
+                            <constraint firstItem="YTB-Ma-8Yp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="QPR-rN-xLV"/>
                             <constraint firstItem="PH7-n4-xxc" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.85" id="Tb9-zr-Qod"/>
                             <constraint firstItem="K9Q-QR-yUg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="VGM-3e-KGs"/>
                             <constraint firstItem="PH7-n4-xxc" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="VfH-Nv-9bd"/>
                             <constraint firstItem="K9Q-QR-yUg" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="VvC-tH-KPe"/>
                             <constraint firstItem="PH7-n4-xxc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ZiJ-Hk-q77"/>
+                            <constraint firstItem="60H-Ko-54o" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="aAe-2J-GqJ"/>
                             <constraint firstItem="K9Q-QR-yUg" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.85" id="cJE-hC-c7g"/>
+                            <constraint firstItem="YTB-Ma-8Yp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cdE-Pj-4s4"/>
+                            <constraint firstItem="60H-Ko-54o" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="eH9-nZ-S7z"/>
                             <constraint firstItem="FuX-Yd-jI5" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="fKO-Rk-hO7"/>
+                            <constraint firstItem="YTB-Ma-8Yp" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="gBz-qj-h0M"/>
                             <constraint firstItem="txO-Ip-BUy" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.85" id="hbI-Zk-Sx4"/>
+                            <constraint firstItem="60H-Ko-54o" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="i5V-Ul-SxK"/>
                             <constraint firstItem="txO-Ip-BUy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="qz5-6j-xd7"/>
+                            <constraint firstItem="YTB-Ma-8Yp" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="sST-Ns-ecu"/>
                             <constraint firstItem="FuX-Yd-jI5" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.85" id="veU-MD-Mmk"/>
                             <constraint firstItem="txO-Ip-BUy" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" constant="700" id="yGN-CO-xRP"/>
                         </constraints>
@@ -143,6 +162,7 @@
                         <outlet property="RightView" destination="txO-Ip-BUy" id="3lX-k4-WMg"/>
                         <outlet property="TopConstraints" destination="Jwl-5w-sFx" id="KuA-pQ-LGg"/>
                         <outlet property="TopView" destination="PH7-n4-xxc" id="3VV-2z-XEx"/>
+                        <outlet property="VisualEffectView" destination="60H-Ko-54o" id="kNE-B1-s23"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -168,4 +188,7 @@
             <point key="canvasLocation" x="249" y="123"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Image.jpg" width="900" height="506"/>
+    </resources>
 </document>
