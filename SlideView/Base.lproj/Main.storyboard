@@ -23,7 +23,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YTB-Ma-8Yp">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="11111Q33N3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YTB-Ma-8Yp">
                                 <rect key="frame" x="-0.5" y="-0.5" width="375" height="667"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="60H-Ko-54o">
@@ -37,65 +37,61 @@
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K9Q-QR-yUg" userLabel="LView">
                                 <rect key="frame" x="0.0" y="64" width="319" height="603"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Left" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7N-rV-1q9">
-                                        <rect key="frame" x="129.5" y="280" width="59.5" height="42"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgimage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qsj-bv-Zvd">
+                                        <rect key="frame" x="-0.5" y="-0.5" width="319" height="603"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="r7N-rV-1q9" firstAttribute="centerX" secondItem="K9Q-QR-yUg" secondAttribute="centerX" id="h9R-gJ-IhP"/>
-                                    <constraint firstItem="r7N-rV-1q9" firstAttribute="centerY" secondItem="K9Q-QR-yUg" secondAttribute="centerY" id="voE-dm-R9S"/>
+                                    <constraint firstItem="qsj-bv-Zvd" firstAttribute="centerY" secondItem="K9Q-QR-yUg" secondAttribute="centerY" id="E3I-1B-fuG"/>
+                                    <constraint firstItem="qsj-bv-Zvd" firstAttribute="width" secondItem="K9Q-QR-yUg" secondAttribute="width" id="EJn-dk-0rq"/>
+                                    <constraint firstItem="qsj-bv-Zvd" firstAttribute="height" secondItem="K9Q-QR-yUg" secondAttribute="height" id="ghi-3f-1iR"/>
+                                    <constraint firstItem="qsj-bv-Zvd" firstAttribute="centerX" secondItem="K9Q-QR-yUg" secondAttribute="centerX" id="hVE-0f-MsN"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PH7-n4-xxc" userLabel="TView">
                                 <rect key="frame" x="0.0" y="64" width="375" height="567"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NLD-nc-Bhv">
-                                        <rect key="frame" x="159" y="263" width="57.5" height="42"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hotel-gurukripa-daman9.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vGL-VU-HMO">
+                                        <rect key="frame" x="-0.5" y="-0.5" width="375" height="567"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="NLD-nc-Bhv" firstAttribute="centerX" secondItem="PH7-n4-xxc" secondAttribute="centerX" id="RiC-yK-XFN"/>
-                                    <constraint firstItem="NLD-nc-Bhv" firstAttribute="centerY" secondItem="PH7-n4-xxc" secondAttribute="centerY" id="W9J-TN-q1P"/>
+                                    <constraint firstItem="vGL-VU-HMO" firstAttribute="centerX" secondItem="PH7-n4-xxc" secondAttribute="centerX" id="GN4-A9-9T4"/>
+                                    <constraint firstItem="vGL-VU-HMO" firstAttribute="centerY" secondItem="PH7-n4-xxc" secondAttribute="centerY" id="HVF-ce-34r"/>
+                                    <constraint firstItem="vGL-VU-HMO" firstAttribute="width" secondItem="PH7-n4-xxc" secondAttribute="width" id="TVw-D4-5cE"/>
+                                    <constraint firstItem="vGL-VU-HMO" firstAttribute="height" secondItem="PH7-n4-xxc" secondAttribute="height" id="dU0-2P-cuy"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FuX-Yd-jI5" userLabel="BView">
                                 <rect key="frame" x="0.0" y="100" width="375" height="567"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bottom" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6GI-pX-LS2">
-                                        <rect key="frame" x="131" y="262.5" width="112.5" height="42"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tj5-Z0-SYV">
+                                        <rect key="frame" x="-0.5" y="-0.5" width="375" height="567"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="6GI-pX-LS2" firstAttribute="centerX" secondItem="FuX-Yd-jI5" secondAttribute="centerX" id="U6N-RO-TSy"/>
-                                    <constraint firstItem="6GI-pX-LS2" firstAttribute="centerY" secondItem="FuX-Yd-jI5" secondAttribute="centerY" id="l2M-g2-f9v"/>
+                                    <constraint firstItem="tj5-Z0-SYV" firstAttribute="centerX" secondItem="FuX-Yd-jI5" secondAttribute="centerX" id="1fo-iM-Gnm"/>
+                                    <constraint firstItem="tj5-Z0-SYV" firstAttribute="height" secondItem="FuX-Yd-jI5" secondAttribute="height" id="Jaf-dQ-Y4o"/>
+                                    <constraint firstItem="tj5-Z0-SYV" firstAttribute="centerY" secondItem="FuX-Yd-jI5" secondAttribute="centerY" id="Qvv-9W-Tur"/>
+                                    <constraint firstItem="tj5-Z0-SYV" firstAttribute="width" secondItem="FuX-Yd-jI5" secondAttribute="width" id="eJH-xY-LHV"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="txO-Ip-BUy" userLabel="RView">
                                 <rect key="frame" x="56.5" y="64" width="318.5" height="603"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Right" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUX-jC-PsM">
-                                        <rect key="frame" x="118" y="280.5" width="81" height="42"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgimage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jSw-GT-e0y">
+                                        <rect key="frame" x="-0.5" y="-0.5" width="318.5" height="603"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="UUX-jC-PsM" firstAttribute="centerX" secondItem="txO-Ip-BUy" secondAttribute="centerX" id="lvE-pa-a2L"/>
-                                    <constraint firstItem="UUX-jC-PsM" firstAttribute="centerY" secondItem="txO-Ip-BUy" secondAttribute="centerY" id="pGa-pn-kco"/>
+                                    <constraint firstItem="jSw-GT-e0y" firstAttribute="height" secondItem="txO-Ip-BUy" secondAttribute="height" id="07w-jV-dc3"/>
+                                    <constraint firstItem="jSw-GT-e0y" firstAttribute="centerX" secondItem="txO-Ip-BUy" secondAttribute="centerX" id="9pK-wz-b3q"/>
+                                    <constraint firstItem="jSw-GT-e0y" firstAttribute="width" secondItem="txO-Ip-BUy" secondAttribute="width" id="Mek-L5-Hte"/>
+                                    <constraint firstItem="jSw-GT-e0y" firstAttribute="centerY" secondItem="txO-Ip-BUy" secondAttribute="centerY" id="aeO-ne-Alg"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -189,6 +185,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="11111Q33N3.jpg" width="480" height="640"/>
         <image name="Image.jpg" width="900" height="506"/>
+        <image name="bgimage.jpg" width="1080" height="1920"/>
+        <image name="hotel-gurukripa-daman9.jpg" width="1200" height="803"/>
     </resources>
 </document>

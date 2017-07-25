@@ -33,7 +33,7 @@ class ViewController: UIViewController
         
         LeftView.layer.shadowOpacity = 2
         LeftView.layer.shadowRadius = 8
-        LeftView.layer.shadowColor = UIColor.red.cgColor
+        LeftView.layer.shadowColor = UIColor.blue.cgColor
         
         TopView.layer.shadowOpacity = 2
         TopView.layer.shadowRadius = 8
@@ -45,7 +45,7 @@ class ViewController: UIViewController
         
         RightView.layer.shadowOpacity = 2
         RightView.layer.shadowRadius = 8
-        RightView.layer.shadowColor = UIColor.red.cgColor
+        RightView.layer.shadowColor = UIColor.blue.cgColor
         
         VisualEffectView.isHidden = true
         
@@ -63,12 +63,18 @@ class ViewController: UIViewController
         if (Lmode)
         {
             LeadingConstraints.constant = -700
+            BottomConstraints.constant = 1000
+            RightConstraints.constant = 700
+            TopView.isHidden = true
             Animation()
             Animation1()
         }
         else
         {
             LeadingConstraints.constant = 0
+            BottomConstraints.constant = 1000
+            RightConstraints.constant = 700
+            TopView.isHidden = true
             Animation()
             Animation2()
         }
@@ -80,6 +86,9 @@ class ViewController: UIViewController
         {
             TopConstraints.constant = -1000
             TopView.isHidden = true
+            LeadingConstraints.constant = -700
+            BottomConstraints.constant = 1000
+            RightConstraints.constant = 700
             Animation()
             Animation1()
         }
@@ -87,6 +96,9 @@ class ViewController: UIViewController
         {
             TopConstraints.constant = 0
             TopView.isHidden = false
+            LeadingConstraints.constant = -700
+            BottomConstraints.constant = 1000
+            RightConstraints.constant = 700
             Animation()
             Animation2()
         }
@@ -97,12 +109,18 @@ class ViewController: UIViewController
         if (Bmode)
         {
             BottomConstraints.constant = 1000
+            LeadingConstraints.constant = -700
+            RightConstraints.constant = 700
+            TopView.isHidden = true
             Animation()
             Animation1()
         }
         else
         {
             BottomConstraints.constant = 0
+            LeadingConstraints.constant = -700
+            RightConstraints.constant = 700
+            TopView.isHidden = true
             Animation()
             Animation2()
         }
@@ -113,12 +131,18 @@ class ViewController: UIViewController
         if (Rmode)
         {
             RightConstraints.constant = 700
+            LeadingConstraints.constant = -700
+            BottomConstraints.constant = 1000
+            TopView.isHidden = true
             Animation()
             Animation1()
         }
         else
         {
             RightConstraints.constant = 0
+            LeadingConstraints.constant = -700
+            BottomConstraints.constant = 1000
+            TopView.isHidden = true
             Animation()
             Animation2()
         }
