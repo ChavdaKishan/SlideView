@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0AA42E1F6FAC7700740218 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0AA42D1F6FAC7700740218 /* SecondViewController.swift */; };
 		4C4DB42A1F151B3100EFFDE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4DB4291F151B3100EFFDE4 /* AppDelegate.swift */; };
 		4C4DB42C1F151B3100EFFDE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4DB42B1F151B3100EFFDE4 /* ViewController.swift */; };
 		4C4DB42F1F151B3100EFFDE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4DB42D1F151B3100EFFDE4 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C0AA42D1F6FAC7700740218 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		4C4DB4261F151B3100EFFDE4 /* SlideView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C4DB4291F151B3100EFFDE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C4DB42B1F151B3100EFFDE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				4C4DB4291F151B3100EFFDE4 /* AppDelegate.swift */,
 				4C4DB42D1F151B3100EFFDE4 /* Main.storyboard */,
 				4C4DB42B1F151B3100EFFDE4 /* ViewController.swift */,
+				4C0AA42D1F6FAC7700740218 /* SecondViewController.swift */,
 				4C6C3C4B1F1A2C4F00D3BD1C /* 11111Q33N3.jpg */,
 				4C6C3C4D1F1A2D8E00D3BD1C /* hotel-gurukripa-daman9.jpg */,
 				4C6C3C4F1F1A2E1E00D3BD1C /* bgimage.jpg */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C0AA42E1F6FAC7700740218 /* SecondViewController.swift in Sources */,
 				4C4DB42C1F151B3100EFFDE4 /* ViewController.swift in Sources */,
 				4C4DB42A1F151B3100EFFDE4 /* AppDelegate.swift in Sources */,
 			);
