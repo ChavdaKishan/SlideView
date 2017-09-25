@@ -13,10 +13,8 @@
 		4C4DB42F1F151B3100EFFDE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4DB42D1F151B3100EFFDE4 /* Main.storyboard */; };
 		4C4DB4311F151B3100EFFDE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4DB4301F151B3100EFFDE4 /* Assets.xcassets */; };
 		4C4DB4341F151B3100EFFDE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4DB4321F151B3100EFFDE4 /* LaunchScreen.storyboard */; };
-		4C6C3C4C1F1A2C4F00D3BD1C /* 11111Q33N3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C3C4B1F1A2C4F00D3BD1C /* 11111Q33N3.jpg */; };
-		4C6C3C4E1F1A2D8E00D3BD1C /* hotel-gurukripa-daman9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C3C4D1F1A2D8E00D3BD1C /* hotel-gurukripa-daman9.jpg */; };
-		4C6C3C501F1A2E1E00D3BD1C /* bgimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C3C4F1F1A2E1E00D3BD1C /* bgimage.jpg */; };
-		4C6C3C521F1A2FA300D3BD1C /* Image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C3C511F1A2FA300D3BD1C /* Image.jpg */; };
+		4C9353F71F78FB1400EF3FE8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9353F61F78FB1400EF3FE8 /* SWRevealViewController.m */; };
+		4C9353F91F78FC4800EF3FE8 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9353F81F78FC4800EF3FE8 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +26,10 @@
 		4C4DB4301F151B3100EFFDE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C4DB4331F151B3100EFFDE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C4DB4351F151B3100EFFDE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C6C3C4B1F1A2C4F00D3BD1C /* 11111Q33N3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11111Q33N3.jpg; sourceTree = "<group>"; };
-		4C6C3C4D1F1A2D8E00D3BD1C /* hotel-gurukripa-daman9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hotel-gurukripa-daman9.jpg"; sourceTree = "<group>"; };
-		4C6C3C4F1F1A2E1E00D3BD1C /* bgimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgimage.jpg; sourceTree = "<group>"; };
-		4C6C3C511F1A2FA300D3BD1C /* Image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image.jpg; sourceTree = "<group>"; };
+		4C9353F41F78FB1300EF3FE8 /* SlideView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlideView-Bridging-Header.h"; sourceTree = "<group>"; };
+		4C9353F51F78FB1400EF3FE8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../Downloads/lift-side-memu-in-swift-3-master/memuDemo/SWRevealViewController.h"; sourceTree = "<group>"; };
+		4C9353F61F78FB1400EF3FE8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../Downloads/lift-side-memu-in-swift-3-master/memuDemo/SWRevealViewController.m"; sourceTree = "<group>"; };
+		4C9353F81F78FC4800EF3FE8 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,16 +63,16 @@
 			isa = PBXGroup;
 			children = (
 				4C4DB4291F151B3100EFFDE4 /* AppDelegate.swift */,
+				4C9353F51F78FB1400EF3FE8 /* SWRevealViewController.h */,
+				4C9353F61F78FB1400EF3FE8 /* SWRevealViewController.m */,
 				4C4DB42D1F151B3100EFFDE4 /* Main.storyboard */,
 				4C4DB42B1F151B3100EFFDE4 /* ViewController.swift */,
 				4C0AA42D1F6FAC7700740218 /* SecondViewController.swift */,
-				4C6C3C4B1F1A2C4F00D3BD1C /* 11111Q33N3.jpg */,
-				4C6C3C4D1F1A2D8E00D3BD1C /* hotel-gurukripa-daman9.jpg */,
-				4C6C3C4F1F1A2E1E00D3BD1C /* bgimage.jpg */,
-				4C6C3C511F1A2FA300D3BD1C /* Image.jpg */,
+				4C9353F81F78FC4800EF3FE8 /* ThirdViewController.swift */,
 				4C4DB4301F151B3100EFFDE4 /* Assets.xcassets */,
 				4C4DB4321F151B3100EFFDE4 /* LaunchScreen.storyboard */,
 				4C4DB4351F151B3100EFFDE4 /* Info.plist */,
+				4C9353F41F78FB1300EF3FE8 /* SlideView-Bridging-Header.h */,
 			);
 			path = SlideView;
 			sourceTree = "<group>";
@@ -111,6 +109,7 @@
 				TargetAttributes = {
 					4C4DB4251F151B3100EFFDE4 = {
 						CreatedOnToolsVersion = 8.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,13 +137,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C6C3C521F1A2FA300D3BD1C /* Image.jpg in Resources */,
-				4C6C3C501F1A2E1E00D3BD1C /* bgimage.jpg in Resources */,
 				4C4DB4341F151B3100EFFDE4 /* LaunchScreen.storyboard in Resources */,
 				4C4DB4311F151B3100EFFDE4 /* Assets.xcassets in Resources */,
-				4C6C3C4C1F1A2C4F00D3BD1C /* 11111Q33N3.jpg in Resources */,
 				4C4DB42F1F151B3100EFFDE4 /* Main.storyboard in Resources */,
-				4C6C3C4E1F1A2D8E00D3BD1C /* hotel-gurukripa-daman9.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +152,9 @@
 			files = (
 				4C0AA42E1F6FAC7700740218 /* SecondViewController.swift in Sources */,
 				4C4DB42C1F151B3100EFFDE4 /* ViewController.swift in Sources */,
+				4C9353F91F78FC4800EF3FE8 /* ThirdViewController.swift in Sources */,
 				4C4DB42A1F151B3100EFFDE4 /* AppDelegate.swift in Sources */,
+				4C9353F71F78FB1400EF3FE8 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,10 +277,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SlideView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Organization.SlideView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SlideView/SlideView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -292,10 +292,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SlideView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Organization.SlideView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SlideView/SlideView-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
