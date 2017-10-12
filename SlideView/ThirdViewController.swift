@@ -8,10 +8,11 @@
 
 import UIKit
 
-class ThirdViewController: UIViewController {
-
+class ThirdViewController: UIViewController
+{
     @IBOutlet weak var btnMenuButton: UIBarButtonItem!
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
             btnMenuButton.target = revealViewController()
             btnMenuButton.action = "revealToggle:"
